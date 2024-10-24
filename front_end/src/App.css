@@ -1,0 +1,48 @@
+/* Định dạng cho container chính */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Tiêu đề chính */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Định dạng cho mỗi nhóm input */
+.form-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Định dạng cho các trường input */
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Định dạng cho nhóm radio button */
+.radio-group {
+  margin-bottom: 10px;
+}
+
+/* Định dạng cho nút submit */
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
